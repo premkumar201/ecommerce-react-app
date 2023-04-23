@@ -26,6 +26,7 @@ const navigate=useNavigate();
   }
   return (
   <>
+  
   {list.length > 0 ? (
     <>
     {list.map((item)=> (

@@ -1,15 +1,15 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "../container/home";
 
 export default function Router(){
     return(
         <div>
-            <BrowserRouter>
+            <HashRouter hashType="hashbang">
             <Routes>
                 <Route path="*" element={<Home/>}/>
             </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     )
 }
