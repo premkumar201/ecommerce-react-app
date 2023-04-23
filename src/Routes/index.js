@@ -1,5 +1,6 @@
 import React from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Home from "../container/home";
 
 export default function Router(){
